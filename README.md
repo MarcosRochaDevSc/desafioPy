@@ -16,7 +16,8 @@ Para utilizar este sistema bancário, siga os passos abaixo:
 2. **Download**: Baixe o código-fonte deste repositório para sua máquina local.
 3. **Execução**:
    ```bash
-   python banco.py
+   python desafio_python.py
+
 4. **Uso**: Siga as instruções exibidas no menu para realizar operações bancárias.
 
 ## Tecnologias Utilizadas
