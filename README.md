@@ -5,7 +5,7 @@ Este repositório hospeda o código de um sistema bancário simples, implementad
 ## Funcionalidades
 
 - **Depósito**: Permite adicionar uma quantia em dinheiro ao saldo da conta.
-- **Saque**: Facilita a retirada de dinheiro, respeitando limites diários de quantidade e valor máximo por operação.
+- **Saque**: Permite a retirada de dinheiro, respeitando limites diários de quantidade e valor máximo por operação.
 - **Extrato**: Exibe um registro de todas as transações realizadas, incluindo depósitos e saques, e apresenta o saldo atual.
 
 ## Como Executar
