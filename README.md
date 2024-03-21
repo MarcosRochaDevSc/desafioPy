@@ -1,24 +1,28 @@
-# Sistema Bancário Simples em Python
+# Sistema Bancário Simples
 
-Este repositório hospeda o código de um sistema bancário simples, implementado em Python. A aplicação oferece funcionalidades básicas de um banco, como depósitos, saques e a visualização de extratos bancários.
+Este projeto é um sistema bancário simples escrito em Python. Ele permite ao usuário realizar operações bancárias básicas como depositar dinheiro, sacar dinheiro (respeitando limites diários e por transação), visualizar um extrato de todas as operações realizadas, cadastrar novos usuários e criar contas bancárias.
 
 ## Funcionalidades
 
-- **Depósito**: Permite adicionar uma quantia em dinheiro ao saldo da conta.
-- **Saque**: Permite a retirada de dinheiro, respeitando limites diários de quantidade e valor máximo por operação.
-- **Extrato**: Exibe um registro de todas as transações realizadas, incluindo depósitos e saques, e apresenta o saldo atual.
+- **Depositar**: Adicionar fundos à sua conta bancária.
+- **Sacar**: Retirar fundos da sua conta bancária, respeitando os limites de saque diário e por transação.
+- **Exibir Extrato**: Ver todas as movimentações (depósitos e saques) e o saldo atual.
+- **Cadastrar Usuário**: Adicionar um novo usuário ao banco com informações como nome, data de nascimento, CPF e endereço.
+- **Criar Conta Corrente**: Associar uma nova conta bancária a um usuário existente.
 
 ## Como Executar
 
-Para utilizar este sistema bancário, siga os passos abaixo:
+Para executar este projeto, você precisará ter Python instalado em sua máquina. Não são necessárias bibliotecas externas. Siga os passos abaixo:
 
-1. **Pré-requisitos**: Certifique-se de ter o Python instalado em seu computador.
-2. **Download**: Baixe o código-fonte deste repositório para sua máquina local.
-3. **Execução**:
-   ```bash
-   python desafio_python.py
+1. Clone o repositório para a sua máquina local.
+2. Navegue até o diretório do projeto.
+3. Execute o arquivo principal do programa (por exemplo, `desafio_python_bancof.py`).
 
-4. **Uso**: Siga as instruções exibidas no menu para realizar operações bancárias.
+```bash
+git clone <URL_DO_REPOSITORIO>
+cd <DIRETORIO_DO_PROJETO>
+python desafio_python_bancof.py
+
 
 ## Tecnologias Utilizadas
 
